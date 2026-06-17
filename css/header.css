@@ -1,5 +1,25 @@
-
 header {
-  background-color: black;
-  
+  background-color: var(--background-terciary-color);
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-between;
+  padding: 37px 48px;
+}
+
+nav {
+    display: none;
+} 
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
+.logo{
+  display: inline-block;
+  width: 68px;
+  height: 64px; 
+}
+
+.navigation-menu{
+  margin-top: 16px;
 }
