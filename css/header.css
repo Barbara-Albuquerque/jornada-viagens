@@ -1,0 +1,72 @@
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 38px 48px;
+  position: relative;
+}
+
+.navigation-menu {
+  margin-top: 16px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background-tertiary-color);
+  width: 100%;
+}
+
+nav {
+  display: none;
+}
+
+.img-mobile {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.menu-button{
+  width: 32px;
+  height: 32px;
+}
+
+.list-links{
+  list-style: none;
+}
+.list-links li{
+  margin: 16px 0 16px 32px; 
+}
+.list-links li a{ 
+  color: var(--text-tertiary-color);
+  text-decoration: none;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+ 
+@media screen and (min-width: 768px) {
+   
+  .navigation-menu{
+    margin-top: 0;
+    width: 468px;
+  }
+   .navigation-menu label{
+    display: none;
+   } 
+  .navigation-menu nav {
+    display: block;
+
+  }
+  .navigation-menu ul{
+    display: flex;
+    justify-content: space-between; 
+    gap: 40px;
+  }
+  .list-links li{
+    margin: 18px 0 0 0;
+  }
+}
