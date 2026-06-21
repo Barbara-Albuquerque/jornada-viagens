@@ -53,7 +53,9 @@ nav {
   font-size: 24px;
   line-height: 1;
 }
-
+.list-links li a.active {
+  text-decoration: underline;
+}
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
