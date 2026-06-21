@@ -76,8 +76,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  .logo{
-  }
+ 
   .img-mobile{
     display: none;
   }
