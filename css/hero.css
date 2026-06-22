@@ -1,0 +1,61 @@
+.hero-img {
+  height: 400px;
+  width: 100%;
+  background: url(../imgs/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 88px;
+}
+
+.hero h2 {
+  margin: 0 24px 88px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: var(--text-weight);
+  line-height: 1.6;
+  color: var(--text-primary-color);
+  text-align: center; 
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    background: url(../imgs/hero-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .hero h2 {
+    margin: 0 60px 88px 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    background: url(../imgs/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 104px;
+  }
+  .hero h2{
+    margin: 0 120px 104px 120px;
+  }
+}
+
+@media screen and (min-width: 1920px){
+
+  .hero-img {
+    height: 620px;
+    background: url(../imgs/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 104px;
+  }
+  .hero h2{
+    margin: 0 160px 104px 160px;
+  }
+}
