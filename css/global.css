@@ -29,3 +29,33 @@
   font-family: "Montserrat", serif;
  
 }
+
+.section-title h2{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  line-height: 1;
+  text-align: center;
+  color: var(--text-primary-color); 
+  margin-bottom: 16px;
+}
+
+.section-title hr{  
+  width: 180px;
+  height: 4px;
+  border:none;
+  background-color: var(--secondary-color);
+  margin: 16px auto 32px auto; 
+
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2{
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-title h2{
+    font-size: 32px;
+  }
+}
