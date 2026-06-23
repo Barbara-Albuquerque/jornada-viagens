@@ -1,0 +1,112 @@
+.offers .offers-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 88px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 16px;
+  color: var(--text-tertiary-color);
+  width: 312px;
+  height: 288px;
+  border-radius: 16px;
+  background-color: var(--background-tertiary-color);
+  text-align: center;
+}
+
+.card header {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin-bottom: 8px;
+}
+
+.card h3 span {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-size: 40px;
+}
+
+.card h3 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+}
+
+.card.japao {
+  background: url(../imgs/bg-card-japao.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card.manaus {
+  background: url(../imgs/bg-card-manaus.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card.san-andreas {
+  background: url(../imgs/bg-card-san-andreas.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card.paraiba {
+  background: url(../imgs/bg-card-paraiba.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .offers .offers-cards {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offers .offers-cards {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 420px;
+    height: 308px;
+  }
+  .card h3 span {
+    font-size: 48px;
+  }
+
+  .card h3 {
+    font-size: 40px;
+  }
+} 
+@media screen and (min-width: 1440px) {
+  .offers .offers-cards {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 588px;
+    height: 308px;
+  } 
+} 
+ 
+@media screen and (min-width: 1920px) {
+  .offers .offers-cards {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 88px auto;
+  }
+  .card {
+    width: 588px;
+    height: 308px;
+  } 
+} 
