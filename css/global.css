@@ -57,7 +57,12 @@
   background: var(--secondary-color);
   border-radius: 8px;
 }
-
+@media screen and (max-width: 360px) {
+  .categories .section-title{
+    width: 312px;
+    margin: 0 auto;
+  }
+}
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
