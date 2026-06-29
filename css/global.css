@@ -48,6 +48,18 @@ section  .categories-section, .offers-section, .destinations-section, .payment-s
   background-color: var(--secondary-color);
   margin: 16px auto 32px auto;
 }
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  line-height: 1; 
+  color: var(--text-primary-color);
+}
+.content-text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
 .button {
   display: flex;
   text-decoration: none;
