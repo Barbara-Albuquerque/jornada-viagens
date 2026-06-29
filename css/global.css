@@ -28,7 +28,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", serif;
 } 
-section  .categories, .offers, .popular-destinations, .payment-conditions {
+section  .categories-section, .offers-section, .destinations-section, .payment-section, .testimonies-section {
   
   margin-top: 88px;
 }
