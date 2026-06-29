@@ -1,0 +1,132 @@
+.destinations-articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.destinations-description-block img {
+  display: block;
+  width: 312px;
+  height: 360px;
+  margin: 32px auto 24px;
+  object-fit: cover;
+  object-position: center;
+}
+.popular-destinations .section-title hr {
+  margin-bottom: 0;
+}
+.destinations-description-block h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 24px 0 24px 24px;
+  line-height: 1;
+}
+
+.destinations-description-block p {
+  width: 312px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  margin: 24px;
+  letter-spacing: 0;
+}
+
+.destinations-description-block .button {
+  margin: 0 auto;
+  width: 312px;
+  height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-description-block img {
+    display: block;
+    width: 648px;
+    height: auto;
+    margin: 32px auto 24px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .destinations-description-block p {
+    width: 648px;
+    height: auto; 
+  }
+  .destinations-description-block .button {
+    margin: 0 0 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popular-destinations{
+    margin-bottom: 104px;
+  }
+  .destinations-articles {
+    display: flex;
+    flex-direction: row; 
+    justify-self: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 904px;
+    gap: 24px;
+    margin-top: 64px; 
+  }
+  .destinations-description-block {
+    margin: 0;
+  }
+  .destinations-description-block h4 {
+    margin: 0 0 24px 0;
+  }
+  .destinations-description-block img {
+    display: block;
+    width: 440px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 0 24px 0;
+  }
+  .destinations-description-block p {
+    margin: 0 0 24px 0;
+    width: 440px;
+  }
+  .destinations-description-block .button {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .popular-destinations{
+    margin-bottom: 104px;
+  }
+  .destinations-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-self: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 1200px;
+    gap: 24px;
+    margin-top: 64px; 
+  }
+  .destinations-description-block {
+    margin: 0;
+  }
+  .destinations-description-block h4 {
+    margin: 0 0 24px 0;
+  }
+  .destinations-description-block img {
+    display: block;
+    width: 588px;
+    height: 452px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 0 24px 0;
+  }
+  .destinations-description-block p {
+    margin: 0 0 24px 0;
+    width: 588px;
+  }
+  .destinations-description-block .button {
+    margin: 0;
+  }
+}
