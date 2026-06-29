@@ -18,8 +18,8 @@
   width: 312px;
   height: 220px;
   border-radius: 8px;
-}
-
+  text-decoration: none;
+} 
 .category-single-card h3 {
   text-align: center;
   font-size: 28px;

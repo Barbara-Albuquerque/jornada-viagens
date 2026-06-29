@@ -27,6 +27,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
+} 
+section  .categories, .offers, .popular-destinations, .payment-conditions {
+  
+  margin-top: 88px;
 }
 .section-title h2 {
   font-size: 28px;
