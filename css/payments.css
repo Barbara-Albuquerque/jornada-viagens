@@ -1,0 +1,94 @@
+.payment-conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 24px 0 24px;
+}
+.payment-description {
+}
+.payment-description h3 {
+  margin-bottom: 24px;
+}
+.img-content.bags {
+  background: url(../imgs/bags.jpg) center / cover no-repeat;
+}
+.img-content.passport {
+  background: url(../imgs/passport.jpg) center / cover no-repeat;
+}
+.img-content.people {
+  background: url(../imgs/people.jpg) center / cover no-repeat;
+  grid-column: span 2;
+  background-position: 0 -26px;
+}
+.payment-imgs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 254px 182px;
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-conditions {
+    margin: 0 60px 24px 60px;
+  }
+  .img-content.bags {
+  }
+  .img-content.passport {
+  }
+  .img-content.people {
+    grid-column: span 2;
+    background-position: 0 -230px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .payment-conditions {
+    flex-direction: row;
+    margin-top: 64px;
+    width: 904px;
+    margin: 64px 60px 0 60px;    
+    justify-self: center; 
+  }
+  .payment-description .content-title {
+    width: 220px;
+  }
+  .payment-description .content-text {
+    width: 340px;
+  }
+  .payment-description { 
+    align-self: flex-start;
+  }
+  .payment-imgs-grid {
+    width: 790px;
+  }
+  .img-content.people {
+    background: url(../imgs/people-desktop.jpg) center / cover no-repeat;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .payment-conditions {
+    flex-direction: row;
+    margin-top: 64px;
+    width: 1198px;
+    margin: 64px 120px 0 120px;
+  }
+  .payment-description .content-title {
+    width: 285px;
+  }
+  .payment-description .content-text {
+    width: 362px;
+  }
+  .payment-description {
+    width: 384px;
+    align-self: flex-start;
+  }
+  .payment-imgs-grid {
+    width: 790px;
+  }
+  .img-content.people {
+    background: url(../imgs/people-desktop.jpg) center / cover no-repeat;
+  }
+}
