@@ -1,10 +1,3 @@
-.footer-img {
-  background: url(../imgs/footer.jpg);
-  background-size: cover;
-  background-position: -184px 0;
-  height: 400px;
-  width: 100%;
-}
 .footer-logo {
   width: 162px;
 }
@@ -42,7 +35,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer-img {
+  .bottom-hero-img {
     background-position: center;
   }
   .footer-information {
@@ -51,7 +44,7 @@
   }
 }
 @media screen and (min-width: 1024px) {
-     .footer-img { 
+     .bottom-hero-img { 
     height: 600px; 
   }
   .footer-content {
@@ -68,7 +61,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-     .footer-img { 
+     .bottom-hero-img { 
     height: 600px;
   background-position: 0 -250px;
   }

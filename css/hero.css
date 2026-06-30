@@ -17,7 +17,13 @@
   color: var(--text-primary-color);
   text-align: center;
 }
-
+.bottom-hero-img {
+  background: url(../imgs/footer.jpg);
+  background-size: cover;
+  background-position: -184px 0;
+  height: 400px;
+  width: 100%;
+}
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
